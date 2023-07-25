@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from.models import *
 # Create your views here.
+# çağırma fonksiyonu 
 def index(request):
     ogrenciler=Ogrenci.objects.all()
     context={
